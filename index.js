@@ -8,6 +8,8 @@ app.get('/', function(req,res){
 app.get('/students', function(req,res){
        res.send('Hi Janel!');
 });
+
+
 */
 
 app.use(require('body-parser')());
