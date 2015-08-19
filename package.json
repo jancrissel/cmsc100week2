@@ -1,0 +1,15 @@
+{
+  "name": "Desktop",
+  "version": "0.1.0",
+  "description": "Simple nodejs Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "~1.13.3",
+    "method-override": "~2.3.5"
+  }
+}
