@@ -37,6 +37,13 @@ describe('student', function(){
 			.end(function(err, res){
 				if(err) throw err;
 				res.should.have.status(200);
+				res.body.should.be.an.instanceOf(Object);
+				res.body.should.have.property('id')
+				res.body.should.have.property('name');		
+				res.body.should.have.property('studno').and.have.lengthOf(10);
+				res.body.should('id').be.type('int');
+				res.body.should('name').be.type('string');	
+				res.body.should('studno').be.type('string');
 				done();
 			})
 		});
