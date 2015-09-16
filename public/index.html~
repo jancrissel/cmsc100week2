@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title> HTML5 Discussion </title>
+		<meta charset = "utf-8"/>
+	</head>
+<body>
+	<form method = "POST" action = "http://localhost:5000/students">
+		<input type = "text" name = "studno" placeholder = "Student Number" pattern = "^[0-9]{4}-[0-9]{5}$" required = ""/> <br/>
+		<input type = "password" name = "name" placeholder = "Name"/> <br/>
+		<input type = "submit" value = "Create"/>
+	</form>
+
+</body>
+</html>
